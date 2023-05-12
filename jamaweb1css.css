@@ -1,0 +1,109 @@
+.wrap {
+    position: relative;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(100px);
+    background-image: url("https://www.beaches.com/blog/content/images/2019/11/Sandals-Negril-Seven-Mile-Beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 2px;
+    border-collapse: collapse;
+    width: 500px;
+    height: 500px;
+}
+
+th {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+td {
+    font-size: 20px;
+    text-align: center;
+}
+/* Nav Bar */
+hr {
+    position: sticky;
+    top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    overflow:hidden;
+    background-color: rgb(190, 190, 190);
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+li {
+    float:left;
+}
+li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+}
+
+.active {
+    color: white;
+    background-color: white;
+}
+
+/* top of page */
+.topBackground {
+    position:absolute;
+    width: 100%;
+    height: 105%;
+    z-index: -1;
+    background-image: url("https://cdn.shortpixel.ai/spai/w_1024+q_lossy+ret_img+to_webp/https://www.islands.com/wp-content/uploads/sites/13/2021/09/jamaica-beach-shutterstock-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.topContent {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* <p> */
+
+.pTitle {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
